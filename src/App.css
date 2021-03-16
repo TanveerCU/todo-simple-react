@@ -1,38 +1,64 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Akaya+Telivigala&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Akaya+Telivigala&family=Lobster&display=swap');
+body{
+  font-family: 'Akaya Telivigala', cursive;
+}
+.box{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  flex-direction: column;
+}
+.add-box{
+  display: flex;
+  align-items: center;
+  min-width: 450px;
+  min-height: 400px;
+  flex-direction: column;
+  background-color: burlywood;
+  border-radius: 20px;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow:  34px 34px 68px #bebebe,
+             -34px -34px 68px #ffffff;
+}
+.entry-element{
+  display: flex;
+}
+.main-icon{
+  font-size: 30px;
+  padding-left: 15px;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 5px;
+  color: green;
+}
+input{
+  display: inline-block;
+  height: 35px;
+  font-size: 20px;
+}
+.g-content,.div-content{
+  padding-top: 20px;
+  cursor: pointer;
+  font-size: 25px;
+  color: darkslategrey;
+}
+.div-content:last-child{
+  padding-bottom: 30px;
+}
+.add-bar{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.del{
+  color: red;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main{
+  font-family: 'Abril Fatface', cursive;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.entr{
+  font-family: 'Abril Fatface', cursive;
+  color: darkslategrey;
 }
